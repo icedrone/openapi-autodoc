@@ -47,14 +47,3 @@ parameters._
 
 When the second CI run finishes, GitBook Sync will automatically take the new
 generated documentation and push it to your GitBook Space.
-
-### Website
-
-This repository also contains a website that can be used to generate a ZIP file
-containing the generated documentation. To run the website, run the following
-commands:
-
-```sh
-$ npm install
-$ npm start
-```

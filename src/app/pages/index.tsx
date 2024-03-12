@@ -51,7 +51,7 @@ function createSummaryFile(gitBookFiles: GitBookFile[]): string {
   const summaryFile = `# Table of contents
 
 ${gitBookFiles
-  .map(({ path, contents }: GitBookFile) => {
+  .map(({ path }: GitBookFile) => {
     return `[${path}](${path})`;
   })
   .join("\n")}`;

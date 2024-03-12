@@ -43,7 +43,7 @@ function createSummaryFile(gitBookFiles: GitBookFile[]): string {
   const summaryFile = `# Table of contents
 
 ${gitBookFiles
-  .map(({ path, title, contents }: GitBookFile) => {
+  .map(({ path, title }: GitBookFile) => {
     const p = basename(path, ".md");
     return `- [${title}](${path.replaceAll(" ", "\\ ")})`;
   })

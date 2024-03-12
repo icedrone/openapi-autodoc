@@ -2,6 +2,7 @@
   "name": "@icedrone/openapi",
   "version": "1.0.0",
   "scripts": {
+    "semantic-release": "semantic-release",
     "build": "esbuild --platform=node --target=node16 --bundle ./src/cli/index.tsx --outfile=./dist/cli/index.js"
   },
   "bin": {

@@ -1,1 +1,5 @@
 .next
+.idea
+dist
+node_modules
+docs

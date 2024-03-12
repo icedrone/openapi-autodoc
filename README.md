@@ -1,18 +1,13 @@
-# OpenAPI Autodoc
+# OpenAPI Autodoc For GitBook
+
 
 A Website and a CLI that generates documentation formatted for GitBook from an
 OpenAPI Specification
 
-## Usage
 
-Make sure you have a recent version of Node.js installed.
-
-### CLI
-
-In your CLI run
-
+### Quick Start
 ```sh
-$ npx @gitbook/openapi-autodoc -f ./path/to/my/openapi.yaml
+$ npx @icedrone/openapi -f ./path/to/my/openapi.yaml
 ```
 
 The CLI will generate documentation in your current working directory.
@@ -22,7 +17,7 @@ Space.
 
 ### In a continuous integration environment
 
-You can set up @gitbook/openapi-autodoc in your continuous integration
+You can set up @icedrone/openapi in your continuous integration
 environment to automatically generate documentation from an OpenAPI
 specification in your repository, or one generated earlier in the build process.
 
@@ -38,7 +33,7 @@ solution you use.
    push a commit containing the generated documentation.
 2. Install Node in your CI environment, if it's not already available.
 3. If necessary, generate your openapi spec.
-4. Run `npx @gitbook/openapi-autodoc -f ./path/to/my/openapi.yaml` in the root
+4. Run `npx @icedrone/openapi -f ./path/to/my/openapi.yaml` in the root
    directory of your repository.
 5. If your generated documentation files have changed, commit them and push them
    to the repository. Files to look for are `.gitbook.yaml` and the `docs` folder.

@@ -40,10 +40,10 @@ solution you use.
 
 Your CI will likely be triggered by this commit.
 
-_Warning: If your OpenAPI spec is generated in a different way each time, this
+Warning: If your OpenAPI spec is generated in a different way each time, this
 will trigger an infinite CI loop. Make sure your OpenAPI spec is generated in
 exactly the same way each time - no timestamps, or random examples of
-parameters._
+parameters.
 
 When the second CI run finishes, GitBook Sync will automatically take the new
 generated documentation and push it to your GitBook Space.
